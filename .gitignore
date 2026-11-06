@@ -1,0 +1,132 @@
+
+# ==================================================
+# PYTHON
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+
+# ==================================================
+# VIRTUAL ENVIRONMENTS
+# ==================================================
+.venv/
+.venv*
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==================================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==================================================
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*-key.json
+credentials*.json
+application_default_credentials.json
+service-account*.json
+
+# ==================================================
+# GOOGLE CLOUD / TERRAFORM
+# ==================================================
+.terraform/
+.terraform*
+*.tfstate
+*.tfstate.*
+my_env.tfvars
+deployment_metadata.json.lock
+
+# ==================================================
+# ADK / AGENT CLI
+# ==================================================
+.adk/
+.google-agents-cli/
+.agents-cli-scripts/
+.agents-cli-original/
+.persist_vector_store
+.saved_chats
+
+# ==================================================
+# PROJECT CACHES
+# ==================================================
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.hypothesis/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==================================================
+# GENERATED FILES
+# ==================================================
+planos/*.csv
+!planos/exemplo.csv
+
+# ==================================================
+# BUILD / DISTRIBUTION
+# ==================================================
+build/
+dist/
+downloads/
+.eggs/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+
+# ==================================================
+# NODE
+# ==================================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ==================================================
+# IDEs / EDITORS
+# ==================================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.sublime-workspace
+
+# ==================================================
+# OPERATING SYSTEM
+# ==================================================
+.DS_Store
+Thumbs.db
+
+# ==================================================
+# TESTS / REPORTS
+# ==================================================
+coverage/
+coverage.xml
+nosetests.xml
+testem.log
+*.log
+
+# ==================================================
+# OTHER TEMPORARY FILES
+# ==================================================
+tmp*
+/tmp
+/out-tsc
+/bazel-out
+*.bak
+*.tmp
